@@ -1,0 +1,8 @@
+docker run -p 1884:1883 -p 8005:8003 \
+	-v /home/$USER/FIND_DATA:/data \
+    -e MQTT_ADMIN=ADMIN \
+    -e MQTT_PASS=Christstollen89 \
+    -e MQTT_SERVER='localhost:1883' \
+	-e MQTT_EXTERNAL='192.168.0.206' \
+	-e MQTT_PORT=1884 \
+	--name find3server -d -t schollz/find3

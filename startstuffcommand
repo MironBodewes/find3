@@ -1,0 +1,7 @@
+docker exec scanner sh -c "find3-cli-scanner -i wlp4s0 -device mirondevice -family mironfamily \
+    -server  http://192.168.0.206 \
+    -scantime 10 -wifi -location 'living room'"
+
+    find3-cli-scanner -i wlan0 -device DEVICE -family FAMILY \
+    -server https://cloud.internalpositioning.com \
+    -scantime 10 -bluetooth -forever -location "living room"
