@@ -1,6 +1,10 @@
 module github.com/schollz/find3
 
+<<<<<<< HEAD
 go 1.21.4
+=======
+go 1.20
+>>>>>>> a57533fb316843a81a7f86bd02f99ccc01e40fed
 
 require (
 	github.com/NYTimes/gziphandler v1.0.1
